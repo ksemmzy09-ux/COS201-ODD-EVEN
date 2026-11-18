@@ -1,2 +1,7 @@
-# COS201-ODD-EVEN
-C++ program to check whether a number is odd or even
+#include <iostream>
+using namespace std;
+
+int main()  {
+   cout<<"my first c++ program!";
+return 0;
+}

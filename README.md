@@ -1,7 +1,20 @@
+
 #include <iostream>
 using namespace std;
 
-int main()  {
-   cout<<"my first c++ program!";
-return 0;
+int main() {
+
+    int number = 17;
+
+    cout << "Number: " << number << endl;
+
+    if (number % 2 == 0) {
+        cout << number << " is an Even number.";
+    }
+    else {
+        cout << number << " is an Odd number.";
+    }
+
+    return 0;
 }
+
